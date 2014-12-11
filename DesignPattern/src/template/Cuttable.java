@@ -1,5 +1,5 @@
 package template;
 
-public interface Cutable {
+public interface Cuttable {
 
 }

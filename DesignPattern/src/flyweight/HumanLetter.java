@@ -8,4 +8,8 @@ public class HumanLetter {
         this.letter = letter;
     }
 
+    public String getLetter() {
+        return this.letter;
+    }
+
 }

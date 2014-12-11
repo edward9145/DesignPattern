@@ -16,8 +16,7 @@ public class TanakaHome extends Home implements TeacherAcceptor{
 
     @Override
     public void accept(Teacher teacher) {
-        // TODO 自動生成されたメソッド・スタブ
-
+        teacher.visit(this);
     }
 
 }

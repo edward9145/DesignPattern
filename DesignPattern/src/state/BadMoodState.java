@@ -15,8 +15,7 @@ public class BadMoodState implements State {
      */
     @Override
     public String getProtectionForCold() {
-        // TODO 自動生成されたメソッド・スタブ
-        return null;
+        return "ももひき";
     }
 
 }

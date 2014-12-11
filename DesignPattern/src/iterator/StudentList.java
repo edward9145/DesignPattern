@@ -8,7 +8,6 @@ public class StudentList{
     public StudentList(int studentCount){
         this.students = new Student[studentCount];
     }
-
     public void add(Student student){
         students[last] = student;
         last++;

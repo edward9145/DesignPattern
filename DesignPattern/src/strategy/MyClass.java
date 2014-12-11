@@ -8,8 +8,8 @@ public class MyClass {
         this.comparator = comparator;
     }
 
-    public int compare(Human h1,Human h2){
-        return comparator.compare(h1,h2);
+    public int compare(Human a, Human b){
+        return comparator.compare(a, b);
     }
 
 }

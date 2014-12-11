@@ -1,6 +1,6 @@
 package factory;
 
-public class TanakasWoodCutPrint extends WoodCutPrint {
+public class TanakasWoodCutPrint extends CutPrint {
 
     public void draw(Cuttable hanzai) {
         System.out.println("hanzai にマジックを使って大好きな女の子の絵を描く");

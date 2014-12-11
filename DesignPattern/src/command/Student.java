@@ -18,6 +18,19 @@ public class Student {
         addSalt.execute(); // 食塩を加えて飽和食塩水を作る実験
         addWater.execute(); // 水を加えて飽和食塩水を作る実験
         makeSaltWater.execute(); // 10%の食塩水100gを作る実験
+
+
+        MakeSaltWaterAddSaltCommand makeSaltWaterAddSalt = new MakeSaltWaterAddSaltCommand();
+        // 実験セットを実験内容にセットする
+        Beaker beaker = new Beaker(90, 10);
+        makeSaltWater.setBeaker(beaker);
+        addSalt.setBeaker(beaker);
+        makeSaltWaterAddSalt.setBeaker(beaker);
+        // 実験リストをセットする
+        makeSaltWaterAddSalt.addCommand(makeSaltWater);
+        makeSaltWaterAddSalt.addCommand(addSalt);
+        // 実験を行う
+        makeSaltWaterAddSalt.execute();
     }
 
 }

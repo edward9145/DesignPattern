@@ -2,7 +2,7 @@ package bridge;
 
 import java.util.Arrays;
 
-public class BubbleSorter extends SortImpl {
+public class BubbleSortImpl extends SortImpl {
 
     @Override
     public void sort(Object[] objs) {

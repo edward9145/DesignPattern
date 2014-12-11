@@ -16,8 +16,11 @@ public class MyTeacher extends Teacher {
 
     @Override
     public void callStudents() {
-
-
+        Iterator it = list.iterator();
+        while(it.hasNext()){
+            Student student = (Student)it.next();
+            System.out.println(student.getName() + student.getSex());
+        }
     }
 
 //    @Override

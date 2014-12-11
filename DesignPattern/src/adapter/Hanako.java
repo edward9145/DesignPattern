@@ -11,7 +11,6 @@ public class Hanako implements Chairperson {
     @Override
     public void organizeClass() {
         taro.enjoyWithAllClassmate();
-
     }
 
 }

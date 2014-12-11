@@ -1,13 +1,17 @@
 package proxy;
 
+//生徒クラス(クライアント)
 public class Student {
 
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
-        // TODO 自動生成されたメソッド・スタブ
+        Teacher fujiwara = new Fujiwara();
+
+        // 質問1
+        fujiwara.question1();
+        // 質問2
+        fujiwara.question2();
+        // 質問3
+        fujiwara.question3();
 
     }
-
 }

@@ -6,8 +6,12 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) {
-        // TODO 自動生成されたメソッド・スタブ
 
+        Teacher teacher = new RookieTeacher();
+        SuzukiHome suzukiHome = new SuzukiHome();
+        TanakaHome tanakaHome = new TanakaHome();
+        suzukiHome.accept(teacher);
+        tanakaHome.accept(teacher);
     }
 
 }

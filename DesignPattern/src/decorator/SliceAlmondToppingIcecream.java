@@ -11,7 +11,7 @@ public class SliceAlmondToppingIcecream implements Icecream {
     @Override
     public String getName() {
         // Decorator
-        return "カシューナッツ" + icecream.getName();
+        return "スライスアーモンド" + icecream.getName();
     }
 
     @Override

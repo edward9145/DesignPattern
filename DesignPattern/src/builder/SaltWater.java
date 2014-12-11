@@ -11,6 +11,6 @@ public class SaltWater {
     }
 
     public double getWeight() {
-        return salt + water;
+        return this.salt + this.water;
     }
 }

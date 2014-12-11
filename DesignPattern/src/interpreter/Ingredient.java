@@ -23,6 +23,7 @@ public class Ingredient implements Operand {
      *
      * @return　operandString
      */
+    @Override
     public String getOperandString() {
         return this.operandString;
     }

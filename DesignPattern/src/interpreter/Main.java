@@ -11,7 +11,7 @@ public class Main {
         Operand powderAndNoodle = new Plus(powder, noodle).execute();
         Operand hotWaterAndPowderNoodle = new Plus(powderAndNoodle, hotWater).execute();
         Operand wait = new Wait(3, hotWaterAndPowderNoodle).execute();
-        Operand soupAndWait = new Plus(soup, wait).execute();
+        Operand soupAndWait = new Plus(wait, soup).execute();
 
         System.out.println(soupAndWait.getOperandString());
 

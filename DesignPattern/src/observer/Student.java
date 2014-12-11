@@ -6,5 +6,10 @@ public class Student extends Subject {
     public Student(String name){
         this.name = name;
     }
+    @Override
+    public int run(int count) {
+        this.notifyObservers();
+        return count;
+    }
 
 }

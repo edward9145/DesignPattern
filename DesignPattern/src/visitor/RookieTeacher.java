@@ -1,6 +1,5 @@
 package visitor;
 
-import java.util.List;
 
 public class RookieTeacher extends Teacher {
 

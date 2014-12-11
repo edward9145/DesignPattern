@@ -14,10 +14,12 @@ public class SuzukiHome extends Home implements TeacherAcceptor{
         return null;
     }
 
+    /**
+     * 訪問者を受け入れるメソッド
+     */
     @Override
     public void accept(Teacher teacher) {
-        // TODO 自動生成されたメソッド・スタブ
-
+       teacher.visit(this);
     }
 
 }

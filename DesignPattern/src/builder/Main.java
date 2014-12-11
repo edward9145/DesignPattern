@@ -10,7 +10,7 @@ public class Main {
         Builder builder = new SaltWaterBuilder();
         Director director = new Director(builder);
         director.constract();
-        builder.abandonSolution(200);
+//        builder.abandonSolution(200);
         SaltWater saltWater = (SaltWater) builder.getResult();
         System.out.println(saltWater.salt + "/" + saltWater.water);
     }

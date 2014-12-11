@@ -1,4 +1,4 @@
-package abstractfactory;
+package abstract_factory;
 
 import java.util.ArrayList;
 import java.util.List;

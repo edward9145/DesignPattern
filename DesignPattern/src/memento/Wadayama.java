@@ -28,7 +28,7 @@ public class Wadayama {
 
        // 数日経過
        // 10までの足し算をしたい
-       
+
        Calc calc2 = new Calc();
        calc2.setMemento(map.get("5までの足し算"));
        for(int n=6; n<=10; n++){

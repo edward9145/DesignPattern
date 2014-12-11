@@ -1,6 +1,6 @@
 package factory;
 
-public abstract class WoodCutPrint {
+public abstract class CutPrint {
 
     public abstract void draw( Cuttable hanzai );
     public abstract void cut( Cuttable hanzai );

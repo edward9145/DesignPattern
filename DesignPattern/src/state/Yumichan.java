@@ -12,6 +12,7 @@ public class Yumichan {
 
     /**
      * 由実ちゃんの状態を変更するメソッド
+     *
      * @param state
      */
     public void changeState(int state) {
@@ -20,6 +21,7 @@ public class Yumichan {
 
     /**
      * 朝のあいさつを返すメソッド
+     *
      * @return
      */
     public String morningGreet() {
@@ -34,6 +36,7 @@ public class Yumichan {
 
     /**
      * 寒いときの防寒具を取得するメソッド
+     *
      * @return
      */
     public String getProtectionForCold() {

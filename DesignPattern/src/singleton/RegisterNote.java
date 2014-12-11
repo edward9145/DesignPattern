@@ -7,7 +7,7 @@ public class RegisterNote {
     private RegisterNote(){}
 
     public RegisterNote getInstance(){
-        returh this.note;
+        return this.note;
     }
 
 }

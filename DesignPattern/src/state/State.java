@@ -9,6 +9,10 @@ public interface State {
      */
     public String morningGreet();
 
+    /**
+     * 寒いときの対策を返すメソッドを定義する
+     * @return
+     */
     public String getProtectionForCold();
 
 }

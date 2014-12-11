@@ -32,7 +32,7 @@ public class SaltWaterBuilder implements Builder {
 
     @Override
     public Object getResult() {
-        return this.getResult();
+        return this.saltWater;
     }
 
 }

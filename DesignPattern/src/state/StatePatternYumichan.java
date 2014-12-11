@@ -3,7 +3,7 @@ package state;
 public class StatePatternYumichan {
 
     /** 由実ちゃんの状態を表すプロパティ */
-    private State state = null;
+    private State state = new DefaultState();
 
     /**
      * 由実ちゃんの状態を変更するメソッド

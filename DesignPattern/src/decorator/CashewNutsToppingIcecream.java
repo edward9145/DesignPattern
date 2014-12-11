@@ -10,6 +10,7 @@ public class CashewNutsToppingIcecream implements Icecream {
 
     @Override
     public String getName() {
+        // Decorator
         return "カシューナッツ" + icecream.getName();
     }
 

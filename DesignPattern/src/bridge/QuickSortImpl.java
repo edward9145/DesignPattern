@@ -2,7 +2,7 @@ package bridge;
 
 import java.util.Arrays;
 
-public class QuickSorter extends SortImpl {
+public class QuickSortImpl extends SortImpl {
 
     @Override
     public void sort(Object[] objs) {

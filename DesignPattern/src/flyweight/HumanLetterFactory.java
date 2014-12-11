@@ -28,7 +28,7 @@ public class HumanLetterFactory {
      *
      * @return singleton
      */
-    public HumanLetterFactory getInstance() {
+    public static HumanLetterFactory getInstance() {
         return singleton;
     }
 

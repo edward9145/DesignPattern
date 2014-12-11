@@ -12,8 +12,9 @@ public class Paper implements Cloneable{
 
     @Override
     public Cloneable createClone() {
-        // TODO 自動生成されたメソッド・スタブ
-        return null;
+        Paper newPaper = new Paper();
+        newPaper.name = this.name;
+        return newPaper;
     }
 
 }

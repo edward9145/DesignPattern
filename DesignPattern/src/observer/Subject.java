@@ -17,9 +17,6 @@ public abstract class Subject {
         }
     }
 
-    public int run(int count){
-        this.notifyObservers();
-        return count;
-    }
+    public abstract int run(int count);
 
 }

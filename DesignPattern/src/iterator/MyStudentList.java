@@ -12,7 +12,6 @@ public class MyStudentList extends StudentList implements Aggregate {
 
     @Override
     public Iterator iterator() {
-        // TODO 自動生成されたメソッド・スタブ
         return new MyStudentListIterator(this);
     }
 

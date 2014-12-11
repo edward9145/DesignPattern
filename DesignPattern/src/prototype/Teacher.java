@@ -29,7 +29,6 @@ public class Teacher {
         try {
             Thread.sleep(100);
         } catch (InterruptedException e) {
-            // TODO 自動生成された catch ブロック
             e.printStackTrace();
         }
     }
@@ -38,7 +37,6 @@ public class Teacher {
         try {
             Thread.sleep(100);
         } catch (InterruptedException e) {
-            // TODO 自動生成された catch ブロック
             e.printStackTrace();
         }
     }

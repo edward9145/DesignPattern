@@ -9,7 +9,7 @@ public class Teacher implements Observer {
 
     @Override
     public void update() {
-       System.out.println(this.name + ": 更新情報を取りました。");
+       System.out.println(this.name + " : 更新情報を取りました。");
     }
 
 }

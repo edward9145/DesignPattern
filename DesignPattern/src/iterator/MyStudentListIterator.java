@@ -20,8 +20,9 @@ public class MyStudentListIterator implements Iterator {
 
     @Override
     public Object next() {
-        // TODO 自動生成されたメソッド・スタブ
-        return null;
+        Student student = myStudentList.getStudentAt(index);
+        index ++;
+        return student;
     }
 
 }

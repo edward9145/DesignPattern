@@ -3,6 +3,7 @@ package composite;
 public class SymbolicLink implements DirectoryEntry {
 
     private String name = null;
+
     public SymbolicLink(String name) {
         this.name = name;
     }

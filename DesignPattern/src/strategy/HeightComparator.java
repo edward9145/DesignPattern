@@ -1,4 +1,4 @@
-packheight strategy;
+package strategy;
 
 public class HeightComparator extends Comparator {
 

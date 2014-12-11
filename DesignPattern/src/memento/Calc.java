@@ -33,8 +33,12 @@ public class Calc {
         this.temp = memento.result;
     }
 
+    /**
+     * 計算結果を取得するメソッド
+     * @return
+     */
     public int getTemp(){
-
+        return this.temp;
     }
 
     /**

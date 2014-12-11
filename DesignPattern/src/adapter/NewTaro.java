@@ -1,11 +1,10 @@
 package adapter;
 
-public class NewTaro implements Chairperson {
+public class NewTaro extends Taro implements Chairperson {
 
     @Override
     public void organizeClass() {
-        // TODO 自動生成されたメソッド・スタブ
-
+        this.enjoyWithAllClassmate();
     }
 
 }

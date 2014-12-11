@@ -14,8 +14,7 @@ public class ImagawasCutPrint extends CutPrint {
 
     @Override
     public void print(Cuttable hanzai) {
-        // TODO 自動生成されたメソッド・スタブ
-
+        System.out.println("インクとして、自分の血を使いプリントする");
     }
 
     @Override

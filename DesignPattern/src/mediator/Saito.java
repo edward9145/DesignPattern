@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Saito implements LoveMediator {
 
-    private Map<String,Colleague> colleagueMap = new HashMap<String,Colleague>();
+    private Map<String, Colleague> colleagueMap = new HashMap<String,Colleague>();
 
     public void addColleague(Colleague colleague){
         colleagueMap.put(colleague.getName(), colleague);

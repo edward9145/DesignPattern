@@ -1,5 +1,5 @@
 package template;
 
-public class Wood implements Cutable{
+public class Wood implements Cuttable{
 
 }

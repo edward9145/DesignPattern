@@ -15,8 +15,7 @@ public class OrdinaryState implements State {
      */
     @Override
     public String getProtectionForCold() {
-        // TODO 自動生成されたメソッド・スタブ
-        return null;
+        return "走る";
     }
 
 }

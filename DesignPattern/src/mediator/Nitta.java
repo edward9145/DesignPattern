@@ -15,6 +15,7 @@ public class Nitta implements Colleague {
     public  void setSecretLover(Colleague colleague){
         this.secretLover = colleague;
     }
+
     public void needsAdvice(){
         this.tension = mediator.consultation(this,secretLover);
     }

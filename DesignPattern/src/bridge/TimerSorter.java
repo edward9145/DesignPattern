@@ -8,7 +8,7 @@ public class TimerSorter extends Sorter {
 
     public void timeSort(Object[] objs){
         long start = System.currentTimeMillis();
-        super.sort(objs);
+        this.sort(objs);
         long end = System.currentTimeMillis();
         System.out.println("time:"+(end - start));
     }

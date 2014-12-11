@@ -25,4 +25,9 @@ public class MakeSaltWaterAddSaltCommand extends Command {
         beaker.note();
     }
 
+    // 実験リストに追加するメソッド
+    public void addCommand(Command command){
+        commands.add(command);
+    }
+
 }

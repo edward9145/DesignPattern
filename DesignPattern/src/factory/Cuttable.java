@@ -1,4 +1,4 @@
-package template;
+package factory;
 
 public interface Cuttable {
 

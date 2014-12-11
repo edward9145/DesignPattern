@@ -31,8 +31,16 @@ public class Main {
 
 
         takeAPhoto(HumanLetterFactory.getInstance().getHumanLetter("あ"));
+        takeAPhoto(HumanLetterFactory.getInstance().getHumanLetter("い"));
+        takeAPhoto(HumanLetterFactory.getInstance().getHumanLetter("は"));
         takeAPhoto(HumanLetterFactory.getInstance().getHumanLetter("あ"));
+        takeAPhoto(HumanLetterFactory.getInstance().getHumanLetter("い"));
+        takeAPhoto(HumanLetterFactory.getInstance().getHumanLetter("よ"));
+        takeAPhoto(HumanLetterFactory.getInstance().getHumanLetter("り"));
+        takeAPhoto(HumanLetterFactory.getInstance().getHumanLetter("も"));
         takeAPhoto(HumanLetterFactory.getInstance().getHumanLetter("あ"));
+        takeAPhoto(HumanLetterFactory.getInstance().getHumanLetter("お"));
+        takeAPhoto(HumanLetterFactory.getInstance().getHumanLetter("い"));
     }
 
     /**

@@ -1,6 +1,7 @@
 package composite;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Directory implements DirectoryEntry {
@@ -19,11 +20,16 @@ public class Directory implements DirectoryEntry {
 
     @Override
     public void remove() {
-
+//
+//        Iterator<DirectoryEntry> itr = list.iterator();
+//        while(itr.hasNext()){
+//            DirectoryEntry entry = itr.next();
+//            entry.remove();
+//        }
+//
         for(DirectoryEntry entry : list){
             entry.remove();
         }
-
         System.out.println(name + "を削除しました");
 
 
